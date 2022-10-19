@@ -56,6 +56,13 @@ public class App {
     consumer.accept(7);
     consumer.accept(7);
     consumer.accept(7);
+
+    // try {
+    //   Thread.sleep();
+    // } catch (InterruptedException e) {
+    //   Thread.currentThread().interrupt();
+    // }
+
     System.out.println(consumer.mean());
   }
 }
