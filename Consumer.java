@@ -1,6 +1,6 @@
 public class Consumer {
   private DataNode node = null;
-  private static final int EXPIRATION_PERIOD_MS_OFFSET = 5000;
+  private static final int EXPIRATION_PERIOD_MS_OFFSET = 300000;
 
   class DataNode {
     public int number;
