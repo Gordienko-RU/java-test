@@ -1,6 +1,6 @@
 public class Consumer {
   private DataNode node = null;
-  private static final int EXPIRATION_PERIOD_MS_OFFSET = 300000;
+  private static final int EXPIRATION_PERIOD_MS_OFFSET = 5000;
 
   class DataNode {
     public int number;
@@ -37,6 +37,6 @@ public class Consumer {
 
     currentNode = null;
 
-    return amount == 0 ? 0 : sum / amount;
+    return amount == 0 ? 0 : (double) sum / amount;
   }
 }
