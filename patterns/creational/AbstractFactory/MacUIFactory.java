@@ -1,4 +1,4 @@
-public final class WindowsUIFactory implements IUIFactory { 
+public final class MacUIFactory implements IUIFactory { 
     @Override
     public void createButton() {};
 
